@@ -1,0 +1,9 @@
+<launch>
+    <node 
+        pkg="rosbag" 
+        name="bag_logger" 
+        type="record" 
+        args="record  -o $(env HOME)/devel/data/puzzleboxes /puzzleboxes_data /puzzleboxes_param" 
+        >
+    </node>
+</launch>

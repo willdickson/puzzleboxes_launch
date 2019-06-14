@@ -1,15 +1,7 @@
 <launch>
-<!-- 
-<rosparam command="load" file="region_params.yaml"/> 
--->
-
-<!--
+<rosparam ns="puzzleboxes" command="load" file="./puzzleboxes_param.yaml"/> 
 <include file="./pgr_camera.launch"/>
---> 
 <include file="./tracking_launcher.launch"/>    
-
-<!-- 
-<include file="$(find path_integration_3x3)/launch/path_integration_3x3.launch"/> 
-<include file="./start_logging.launch" />
---> 
+<include file="$(find puzzleboxes)/launch/puzzleboxes.launch"/> 
+<include file="bag_logger.launch" />
 </launch>
