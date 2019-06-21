@@ -18,6 +18,8 @@ default_param:
         by_type:
             center:
                 display_name: CTR
+            tunnels:
+                display_name: TUN
 
     led_scheduler:
 
@@ -40,4 +42,4 @@ default_param:
         display_name:
             Gr43a:   Gr43a
             HCS:     HCS
-            Gr43a_+: het
+            Gr43a_+: HET

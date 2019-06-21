@@ -1,9 +1,9 @@
 Arena,Fly,Classifier,Classifier Param,LED Policy,LED Policy Param,,Trial State,State Duration
-1,Gr43a,Center,"{height: 78, width: 10}",pulse,"{on_t: 1, off_t: 9}",,disabled,0
-2,Gr43a,Center,"{height: 78, width: 10}",instant,{},,enabled,0
-3,HCS,Center,"{height: 78, width: 10}",empty,{},,disabled,0.1
-4,Gr43a_+,Center,{radius: 10},instant,{},,enabled,10
-5,Gr43a,Center,{radius: 10},empty,{},,,
+1,Gr43a,Center,{radius: 20},empty,{},,disabled,0.5
+2,Gr43a,Center,{radius: 20},pulse,"{on_t: 1, off_t: 9}",,enabled,2
+3,Gr43a,Center,{radius: 20},instant,{},,disabled,0.5
+4,Gr43a,Center,"{height: 78, width: 10}",instant,{},,,
+5,Gr43a,Center,"{height: 78, width: 10}",pulse,"{on_t: 1, off_t: 9}",,,
 6,,,,,,,,
 7,,,,,,,,
 8,,,,,,,,
