@@ -1,0 +1,8 @@
+<launch>
+    <include file="./pgr_camera.launch"/>
+    <node pkg="puzzleboxes" name="bg_finder" type="bg_finder_node.py">
+        <param name="update_dt" type="double" value="2.0"/>
+        <param name="max_len" type="int" value="50"/>
+        <param name="output_file" type="str" value="$(env HOME)/devel/src/bg_image.npy"/>
+    </node>
+</launch>
