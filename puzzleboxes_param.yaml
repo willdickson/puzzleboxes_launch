@@ -5,6 +5,11 @@ param_pub_period: 60.0
 
 kill_at_finish: true 
 
+tracking:
+    threshold: 40
+    min_area: 2
+    max_area: 1000
+
 regions:
 
     width: 78 
