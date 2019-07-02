@@ -3,7 +3,7 @@
         pkg="rosbag" 
         name="bag_logger" 
         type="record" 
-        args="record  -o $(env HOME)/devel/data/puzzleboxes /puzzleboxes_data /puzzleboxes_param" 
+        args="record  -o $(env HOME)/devel/data/puzzleboxes /puzzleboxes_data /puzzleboxes_param /puzzleboxes_bg_image" 
         >
     </node>
 </launch>
