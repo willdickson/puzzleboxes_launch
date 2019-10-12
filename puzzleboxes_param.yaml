@@ -1,9 +1,11 @@
 
-trial_param_file: '/home/flyranch-corfas2/devel/src/puzzleboxes_trial - example.csv'
+trial_param_file: '/home/flyranch-corfas2/devel/src/puzzleboxes_trial - dance_test.csv'
 
 param_pub_period: 60.0
 
 kill_at_finish: true 
+use_compressed_images: true
+display_scale: 0.4
 
 tracking:
     threshold: 40
@@ -49,3 +51,7 @@ default_param:
             Gr43a:   Gr43a
             HCS:     HCS
             Gr43a_+: HET
+            PAM_0273: PAM0273
+            lexA_12: lexA12
+            lexA_7:  lexA7
+            
