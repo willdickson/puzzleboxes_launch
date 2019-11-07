@@ -10,7 +10,7 @@
       <param name="fps" value="30" />
       <param name="power_line_frequency" value="60"/>
       <param name="auto_exposure" value="0" />
-      <param name="exposure_absolute" value="20" />
+      <param name="exposure_absolute" value="157" />
       <param name="exposure_auto_priority" value="0" />
       <param name="auto_white_balance" value="0" />
       <param name="white_balance_temperature" value="0" />

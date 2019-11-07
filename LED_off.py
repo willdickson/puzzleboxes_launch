@@ -44,4 +44,4 @@ print("Turning off LED's...")
 
 for i in range(64):
     led.setBrightness(i, 0)
-
+    sleep(0.001)
