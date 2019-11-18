@@ -9,7 +9,7 @@ param_pub_number: 3
 
 kill_at_finish: true 
 use_compressed_images: true
-display_scale: 0.7
+display_scale: 0.8
 #display_scale: 0.2
 
 tracking:
@@ -22,7 +22,8 @@ regions:
 
     width: 190 
     height: 200 
-    centers_file: '/home/flyranch-corfas3/devel/src/centers.yaml'
+    centers_file:  '/home/flyranch-corfas3/devel/src/centers.yaml'
+    ledmap_file:   '/home/flyranch-corfas3/devel/src/ledmap.yaml'
     bg_image_file: '/home/flyranch-corfas3/devel/src/bg_image.npy'
 
 default_param:
