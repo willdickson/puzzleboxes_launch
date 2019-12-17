@@ -7,7 +7,8 @@ show_processing_dt: true
 param_pub_period: 60.0
 param_pub_number: 3
 
-kill_at_finish: true 
+#kill_at_finish: true 
+kill_at_finish: false 
 use_compressed_images: true
 display_scale: 0.8
 #display_scale: 0.2
@@ -24,7 +25,9 @@ regions:
     height: 200 
     centers_file:  '/home/flyranch-corfas3/devel/src/centers.yaml'
     ledmap_file:   '/home/flyranch-corfas3/devel/src/ledmap.yaml'
-    bg_image_file: '/home/flyranch-corfas3/devel/src/bg_image.npy'
+    # CHANGE This back!!!!!
+    #bg_image_file: '/home/flyranch-corfas3/devel/src/bg_image.npy'
+    bg_image_file: '/home/flyranch-corfas3/devel/src/bg_ficfruit_video_test.png'
 
 default_param:
 
@@ -56,9 +59,11 @@ default_param:
 
     fly:
         display_name:
-            HCS:     HCS
-            Gr43a:   Gr43a
-            Gr43a_+: HET
+            HCS: HCS
+            Gr43a: Gr43a
+            Gr43a_+: het
+            Gr5a: Gr5a
+            Gr5a_+: het
             PAM_0273: PAM0273
-            C-137:  C-137
+            C-137: C-137
             

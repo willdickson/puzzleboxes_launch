@@ -4,7 +4,7 @@
 <!-- <include file="./pgr_camera.launch"/> -->
 <!-- <include file="./uvc_camera.launch"/> --> 
 
-<include file="$(find puzzleboxes)/launch/puzzleboxes.launch"/> 
+<include file="$(find puzzleboxes)/launch/puzzleboxes_multiobj.launch"/> 
 <include file="bag_logger.launch" />
 
 </launch>
