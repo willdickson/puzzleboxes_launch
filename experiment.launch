@@ -2,7 +2,7 @@
 
 <rosparam ns="puzzleboxes" command="load" file="./puzzleboxes_param.yaml"/> 
 <!-- <include file="./pgr_camera.launch"/> -->
-<!-- <include file="./uvc_camera.launch"/> --> 
+<include file="./uvc_camera.launch"/>
 
 <include file="$(find puzzleboxes)/launch/puzzleboxes.launch"/> 
 <include file="bag_logger.launch" />

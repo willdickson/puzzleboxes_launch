@@ -1,5 +1,5 @@
 
-trial_param_file: '/home/flyranch-corfas3/devel/src/puzzleboxes_trial - tunnels_pilot.csv'
+trial_param_file: '/home/flyranch-corfas3/devel/src/puzzleboxes_trial - single_ficfruit.csv'
 
 max_queue_size: 15
 show_processing_dt: true
@@ -7,8 +7,7 @@ show_processing_dt: true
 param_pub_period: 60.0
 param_pub_number: 3
 
-#kill_at_finish: true 
-kill_at_finish: false 
+kill_at_finish: true 
 use_compressed_images: true
 display_scale: 0.8
 #display_scale: 0.2
@@ -25,9 +24,8 @@ regions:
     height: 200 
     centers_file:  '/home/flyranch-corfas3/devel/src/centers.yaml'
     ledmap_file:   '/home/flyranch-corfas3/devel/src/ledmap.yaml'
-    # CHANGE This back!!!!!
-    #bg_image_file: '/home/flyranch-corfas3/devel/src/bg_image.npy'
-    bg_image_file: '/home/flyranch-corfas3/devel/src/bg_ficfruit_video_test.png'
+    bg_image_file: '/home/flyranch-corfas3/devel/src/bg_image.npy'
+#    bg_image_file: '/home/flyranch-corfas3/devel/src/bg_ficfruit_video_test.png'
 
 default_param:
 
@@ -38,6 +36,8 @@ default_param:
                 display_name: CTR
             tunnels:
                 display_name: TUN
+            ficfruit_touch:
+                display_name: TOUCH 
 
     led_scheduler:
 
