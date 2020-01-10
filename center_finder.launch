@@ -11,8 +11,9 @@
         <param name="erode_kernel_size" type="int" value="0"/>
         <param name="filter_coeff" type="double" value="0.05"/>
         <param name="center_disp_radius" type="int" value="8"/>
-        <param name="center_disp_thickness" type="int" value="4"/>
+        <param name="center_disp_thickness" type="int" value="2"/>
         <param name="output_file" type="str" value="$(env HOME)/devel/src/centers.yaml"/>
+        <param name="mask_file" type="str" value="$(env HOME)/devel/src/mask.npy"/>
         <param name="input_file" type="str" value="$(env HOME)/devel/src/bg_image.npy"/>
     </node>
 </launch>
