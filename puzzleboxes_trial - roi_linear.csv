@@ -1,0 +1,8 @@
+Arena,Fly,Classifier,Classifier Param,LED Policy,LED Policy Param,LED Number,Notes,Trial State,State Duration,Arena Type,,
+1,Gr5a,roi,"{x_pos: 0, y_pos: 0, radius: 20}",pulse,"{on_t: 1, off_t: 14}",[3],2d-starved_dob1.29-31_F,disabled,10,tunnels_A,TRIAL DURATION:,80
+2,Gr5a,roi,"{x_pos: 0, y_pos: 0, radius: 20}",pulse,"{on_t: 1, off_t: 14}",[8],2d-starved_dob1.29-31_F,enabled,60,,hours:,1.333333333
+3,Gr5a,roi,"{x_pos: 0, y_pos: 0, radius: 20}",pulse,"{on_t: 1, off_t: 14}",[13],2d-starved_dob1.29-31_F,disabled,10,,,
+4,Gr5a,roi,"{x_pos: 0, y_pos: 0, radius: 20}",pulse,"{on_t: 1, off_t: 14}",[18],2d-starved_dob1.29-31_F,,,,,
+5,Gr5a,roi,"{x_pos: 0, y_pos: 0, radius: 20}",pulse,"{on_t: 1, off_t: 14}",[23],2d-starved_dob1.29-31_F,,,,,
+6,Gr5a,roi,"{x_pos: 0, y_pos: 0, radius: 20}",pulse,"{on_t: 1, off_t: 14}",[28],2d-starved_dob1.29-31_F,,,,,
+7,Gr5a,roi,"{x_pos: 0, y_pos: 0, radius: 20}",pulse,"{on_t: 1, off_t: 14}",[33],2d-starved_dob1.29-31_F,,,,,

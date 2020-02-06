@@ -1,0 +1,11 @@
+Arena,Fly,Classifier,Classifier Param,LED Policy,LED Policy Param,LED Number,Notes,Trial State,State Duration,Arena Type,,
+1,PAM_0273,ficfruit_revisit,"{inner_radius: 0, outer_radius: 30, touch_count: 3}",single_pulse,{on_t: 0.25},[1],fed_dob1.20-24_mixedsex_day-night,disabled,0,tunnels_A,TRIAL DURATION:,180
+2,PAM_0273,ficfruit_revisit,"{inner_radius: 0, outer_radius: 30, touch_count: 3}",single_pulse,{on_t: 0.25},[2],fed_dob1.20-24_mixedsex_day-night,enabled,180,,hours:,3
+3,PAM_0273,ficfruit_revisit,"{inner_radius: 0, outer_radius: 30, touch_count: 3}",single_pulse,{on_t: 0.25},[3],fed_dob1.20-24_mixedsex_day-night,,,,,
+4,PAM_0273,ficfruit_revisit,"{inner_radius: 0, outer_radius: 30, touch_count: 3}",single_pulse,{on_t: 0.25},[4],fed_dob1.20-24_mixedsex_day-night,,,,,
+5,PAM_0273,ficfruit_revisit,"{inner_radius: 0, outer_radius: 30, touch_count: 3}",single_pulse,{on_t: 0.25},[5],fed_dob1.20-24_mixedsex_day-night,,,,,
+6,PAM_0273,ficfruit_revisit,"{inner_radius: 0, outer_radius: 30, touch_count: 3}",single_pulse,{on_t: 0.25},[6],fed_dob1.20-24_mixedsex_day-night,,,,,
+7,PAM_0273,ficfruit_revisit,"{inner_radius: 0, outer_radius: 30, touch_count: 3}",single_pulse,{on_t: 0.25},[7],fed_dob1.20-24_mixedsex_day-night,,,,,
+8,PAM_0273,ficfruit_revisit,"{inner_radius: 0, outer_radius: 30, touch_count: 3}",single_pulse,{on_t: 0.25},[8],fed_dob1.20-24_mixedsex_day-night,,,,,
+9,PAM_0273,ficfruit_revisit,"{inner_radius: 0, outer_radius: 30, touch_count: 3}",single_pulse,{on_t: 0.25},[9],fed_dob1.20-24_mixedsex_day-night,,,,,
+10,PAM_0273,ficfruit_revisit,"{inner_radius: 0, outer_radius: 30, touch_count: 3}",single_pulse,{on_t: 0.25},[10],fed_dob1.20-24_mixedsex_day-night,,,,,

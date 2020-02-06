@@ -1,0 +1,4 @@
+Arena,Fly,Classifier,Classifier Param,LED Policy,LED Policy Param,LED Number,Notes,Trial State,State Duration,Arena Type,,
+1,PAM_0273,roi,"{x_pos: -55, y_pos: 0, radius: 80}",pulse,"{on_t: 0.25, off_t: 2}",all,fed_dob1.20-22_mixedsex,disabled,0,tunnels_A,TRIAL DURATION:,180
+6,PAM_0273,roi,"{x_pos: -55, y_pos: 0, radius: 80}",pulse,"{on_t: 0.25, off_t: 2}",[],fed_dob1.20-22_mixedsex,enabled,180,,hours:,3
+11,PAM_0273,roi,"{x_pos: -55, y_pos: 0, radius: 80}",pulse,"{on_t: 0.25, off_t: 2}",[],fed_dob1.20-22_mixedsex,,,,,

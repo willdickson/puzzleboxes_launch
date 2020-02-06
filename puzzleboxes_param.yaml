@@ -1,5 +1,8 @@
 
-trial_param_file: '/home/flyranch-corfas3/devel/src/puzzleboxes_trial - ficfruit.csv'
+trial_param_file: '/home/flyranch-corfas3/devel/src/puzzleboxes_trial - ficfruit_revisit.csv'
+#trial_param_file: '/home/flyranch-corfas3/devel/src/puzzleboxes_trial - ficfruit.csv'
+#trial_param_file: '/home/flyranch-corfas3/devel/src/puzzleboxes_trial - roi_linear.csv'
+#trial_param_file: '/home/flyranch-corfas3/devel/src/puzzleboxes_trial - roi.csv'
 #trial_param_file: '/home/flyranch-corfas3/devel/src/puzzleboxes_trial - center.csv'
 #trial_param_file: '/home/flyranch-corfas3/devel/src/puzzleboxes_trial - tunnels.csv'
 
@@ -17,14 +20,15 @@ display_scale: 0.8
 tracking:
     #threshold: 'otsu' 
     threshold: 100 
-    multiobj_threshold: 60 
+    multiobj_threshold: 45 
     min_area: 10 
     max_area: 5000
 
 regions:
 
     width: 190 
-    height: 200 
+    height: 200
+    #height: 1050 
     centers_file:    '/home/flyranch-corfas3/devel/src/centers.yaml'
     ledmap_file:     '/home/flyranch-corfas3/devel/src/ledmap.yaml'
     bg_image_file:   '/home/flyranch-corfas3/devel/src/bg_image.npy'
@@ -34,18 +38,23 @@ regions:
         kernel_size: [3,3]
         iterations: 4
 
-
 default_param:
 
     classifier:
 
         by_type:
+            roi:
+                display_name: ROI
+            roi_revisit:
+                display_name: ROIREV
             center:
                 display_name: CTR
             tunnels:
                 display_name: TUN
             ficfruit_touch:
                 display_name: TOUCH 
+            ficfruit_revisit:
+                display_name: REVISIT
 
     led_scheduler:
 
@@ -58,10 +67,10 @@ default_param:
         by_type:
             instant:
                 display_name: INST
-            
             pulse:
                 display_name: PULSE 
-            
+            single_pulse:
+                display_name: 1PULSE
             yoked:
                 display_name: YOKED
 
