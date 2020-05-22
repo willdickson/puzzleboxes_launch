@@ -1,0 +1,4 @@
+Arena,Fly,Classifier,Classifier Param,LED Policy,LED Policy Param,LED Number,Notes,Trial State,State Duration,Arena Type,,
+1,PAM_0273,roi,"{x_pos: 0, y_pos: 0, radius: 20}",pulse,"{on_t: 1, off_t: 9}",[18],fed-starved_dob2.3_mixedsex,disabled,30,tunnels_A,TRIAL DURATION:,150
+,,,,,,,,enabled,90,,hours:,2.5
+,,,,,,,,disabled,30,,,

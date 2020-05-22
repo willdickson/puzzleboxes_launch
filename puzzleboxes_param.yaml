@@ -1,10 +1,11 @@
 
-trial_param_file: '/home/flyranch-corfas3/devel/src/puzzleboxes_trial - ficfruit_revisit.csv'
+#trial_param_file: '/home/flyranch-corfas3/devel/src/puzzleboxes_trial - ficfruit_revisit.csv'
 #trial_param_file: '/home/flyranch-corfas3/devel/src/puzzleboxes_trial - ficfruit.csv'
 #trial_param_file: '/home/flyranch-corfas3/devel/src/puzzleboxes_trial - roi_linear.csv'
-#trial_param_file: '/home/flyranch-corfas3/devel/src/puzzleboxes_trial - roi.csv'
-#trial_param_file: '/home/flyranch-corfas3/devel/src/puzzleboxes_trial - center.csv'
+trial_param_file: '/home/flyranch-corfas3/devel/src/puzzleboxes_trial - rois.csv'
+#trial_param_file: '/home/flyranch-corfas3/devel/src/puzzleboxes_trial - rois_singlearena.csv'
 #trial_param_file: '/home/flyranch-corfas3/devel/src/puzzleboxes_trial - tunnels.csv'
+#trial_param_file: '/home/flyranch-corfas3/devel/src/puzzleboxes_trial - led_on.csv'
 
 max_queue_size: 15
 show_processing_dt: false 
@@ -27,9 +28,12 @@ tracking:
 regions:
 
     width: 190 
+#    width: 1050
+#    width: 390
     height: 200
-    #height: 1050 
+#    height: 1050 
     centers_file:    '/home/flyranch-corfas3/devel/src/centers.yaml'
+#    centers_file:    '/home/flyranch-corfas3/devel/src/centers_dual_arenas.yaml'
     ledmap_file:     '/home/flyranch-corfas3/devel/src/ledmap.yaml'
     bg_image_file:   '/home/flyranch-corfas3/devel/src/bg_image.npy'
 #    bg_image_file:   '/home/flyranch-corfas3/devel/src/bg_ficfruit_video_test.png'
@@ -45,12 +49,18 @@ default_param:
         by_type:
             roi:
                 display_name: ROI
+            roi_inverted:
+                display_name: ROI(-)
+            rois:
+                display_name: ROIs
             roi_revisit:
                 display_name: ROIREV
             center:
                 display_name: CTR
             tunnels:
                 display_name: TUN
+            tunnels_inverted:
+                display_name: TUN(-)
             ficfruit_touch:
                 display_name: TOUCH 
             ficfruit_revisit:
@@ -73,6 +83,8 @@ default_param:
                 display_name: 1PULSE
             yoked:
                 display_name: YOKED
+            always_on:
+                display_name: ALWAYS_ON
 
     fly:
         display_name:
@@ -83,4 +95,6 @@ default_param:
             Gr5a_+: het
             PAM_0273: PAM0273
             C-137: C-137
+            Gr28b: Gr28b
+            Gr66a: Gr66a
             

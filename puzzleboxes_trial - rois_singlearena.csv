@@ -1,0 +1,3 @@
+:q,Fly,Classifier,Classifier Param,LED Policy,LED Policy Param,LED Number,Notes,Trial State,State Duration,Arena Type,,
+1,Gr5a,rois,"{x_pos:[-195,-195,-195,0,0,0,195,195,195], y_pos: [-210,0,210,-210,0,210,-210,0,210], radius: 20}",pulse,"{on_t: 1, off_t: 9}",all,2dstarved_dob2.14_f,disabled,1,flyadelphia,TRIAL DURATION:,181
+,,,,,,,,enabled,180,,hours:,3.016666667

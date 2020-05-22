@@ -1,0 +1,8 @@
+Arena,Fly,Classifier,Classifier Param,LED Policy,LED Policy Param,LED Number,Notes,Trial State,State Duration,Arena Type,,
+1,Gr66a,roi,"{x_pos: 0, y_pos: 0, radius: 0}",always_on,"{on_t: 1, off_t: 9}",[3],fed_dob3.2_mixedsex,disabled,30,linear_vertical,TRIAL DURATION:,120
+2,Gr66a,roi,"{x_pos: 0, y_pos: 0, radius: 0}",always_on,"{on_t: 1, off_t: 9}",[8],fed_dob3.2_mixedsex,enabled,60,,hours:,2
+3,Gr66a,roi,"{x_pos: 0, y_pos: 0, radius: 0}",always_on,"{on_t: 1, off_t: 9}",[13],fed_dob3.2_mixedsex,disabled,30,,,
+4,Gr66a,roi,"{x_pos: 0, y_pos: 0, radius: 0}",always_on,"{on_t: 1, off_t: 9}",[18],fed_dob3.2_mixedsex,,,,,
+5,Gr66a,roi,"{x_pos: 0, y_pos: 0, radius: 0}",always_on,"{on_t: 1, off_t: 9}",[23],fed_dob3.2_mixedsex,,,,,
+6,Gr66a,roi,"{x_pos: 0, y_pos: 0, radius: 0}",always_on,"{on_t: 1, off_t: 9}",[28],fed_dob3.2_mixedsex,,,,,
+7,Gr66a,roi,"{x_pos: 0, y_pos: 0, radius: 0}",always_on,"{on_t: 1, off_t: 9}",[33],fed_dob3.2_mixedsex,,,,,

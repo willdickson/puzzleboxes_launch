@@ -1,0 +1,16 @@
+Arena,Fly,Classifier,Classifier Param,LED Policy,LED Policy Param,LED Number,Notes,Trial State,State Duration,Arena Type,,
+1,Gr28b,center,{radius: 0},always_on,{},[1],fed_dob2.3-5_mixedsex,disabled,0.1,tunnels_A,TRIAL DURATION:,45.1
+2,Gr28b,center,{radius: 0},always_on,{},[2],fed_dob2.3-5_mixedsex,enabled,30,,hours:,0.7516666667
+3,Gr28b,center,{radius: 0},empty,{},[3],fed_dob2.3-5_mixedsex,disabled,15,,,
+4,Gr28b,center,{radius: 0},always_on,{},[4],fed_dob2.3-5_mixedsex,,,,,
+5,Gr28b,center,{radius: 0},always_on,{},[5],fed_dob2.3-5_mixedsex,,,,,
+6,Gr28b,center,{radius: 0},always_on,{},[11],fed_dob2.3-5_mixedsex,,,,,
+7,Gr28b,center,{radius: 0},always_on,{},[12],fed_dob2.3-5_mixedsex,,,,,
+8,Gr28b,center,{radius: 0},empty,{},[13],fed_dob2.3-5_mixedsex,,,,,
+9,Gr28b,center,{radius: 0},always_on,{},[14],fed_dob2.3-5_mixedsex,,,,,
+10,Gr28b,center,{radius: 0},always_on,{},[15],fed_dob2.3-5_mixedsex,,,,,
+11,Gr28b,center,{radius: 0},always_on,{},[21],fed_dob2.3-5_mixedsex,,,,,
+12,Gr28b,center,{radius: 0},always_on,{},[22],fed_dob2.3-5_mixedsex,,,,,
+13,Gr28b,center,{radius: 0},empty,{},[23],fed_dob2.3-5_mixedsex,,,,,
+14,Gr28b,center,{radius: 0},always_on,{},[24],fed_dob2.3-5_mixedsex,,,,,
+15,Gr28b,center,{radius: 0},always_on,{},[25],fed_dob2.3-5_mixedsex,,,,,
